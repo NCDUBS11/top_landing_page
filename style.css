@@ -1,0 +1,280 @@
+@import url('https://fonts.googleapis.com/css2?family=Caprasimo&family=Hahmlet:wght@200;300;400;500;600;700;800&family=Poppins:wght@100;200;300;400;500;600;700;800&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+/* General Properties */
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Poppins, Roboto, Hahmlet, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+}
+h1, h2, h3, h4 {
+    padding: 0;
+    margin: 0;
+    font-weight: 500;
+}
+ul {
+    margin: 0px;
+    padding: 0px;
+}
+li {
+    list-style: none;
+}
+button {
+    border-radius: 8px;
+    border-color: black;
+    text-decoration: none;
+    font-family: Poppins, Roboto, sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    padding: 5px 35px;
+}
+
+/* Header Properties */
+
+.upper {
+    display: flex;
+    min-height:450px;
+    justify-content: space-between;
+}
+.right-links button, .left-hero button {
+
+    color: white;
+    background-color: #E86A33;
+}
+.left-side {
+    background-color: #263A29;
+    min-width: 850px; 
+    display: flex;
+    flex-direction: column;
+    flex: 2
+}
+.left-header {
+    display: flex;
+    flex: 1 1 1;
+    align-items: center;
+    padding: 20px 0 0 20px;
+}
+.left-links {
+    display: flex;
+    gap: 20px;
+    padding-left: 30px;
+}
+.left-links a {
+    text-decoration: none;
+    font-family: Poppins, Roboto, sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    color: white;
+}
+.left-side button {
+   padding: 7px 50px;
+   width: fit-content;
+}
+.leaf-logo{
+    width: 40px;
+    object-fit: contain;
+}
+.logo-text {
+    font-family: Poppins, Roboto, sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: white;
+    padding-right: 30px;
+    padding-left: 10px;
+    border-right: 1px solid rgb(197, 197, 197);
+}
+.left-hero {
+    min-width: 725px;
+    max-width: 875px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 1 1 auto;
+    padding: 50px 50px 50px 50px;
+}
+.main-title {
+    font-family: Hahmlet, Roboto, sans-serif;
+    color: white;
+    font-size: 48px;
+    font-weight: 700px;
+}
+.main-description {
+    font-family: Poppins, Roboto, sans-serif;
+    padding-right: 100px;
+    padding-top: 10px;
+    padding-bottom: 25px;
+    font-weight: 200;
+    font-size: 18px;
+    color: white;
+}
+.right-side {
+    display: flex;
+    width: 40vw;
+    background-image: url(./assets/pexels-scott-webb-1931143.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    flex: 1;
+    justify-content: flex-end;
+}
+.right-links {
+    display: flex;
+    margin-left: auto;
+    flex: 1;
+    padding: 20px 20px 0 20px;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: center;
+}
+.right-links a {
+    text-decoration: none;
+    font-family: Poppins, Roboto, sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    color: black;
+}
+
+/* Main Content */
+/* Main - Sales */
+
+.middle {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+.plant-sizes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+.purchase-links {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 150px;
+    padding-top: 70px;
+}
+
+.plant-sizes img {
+    width: 200px;
+    height: 200px; 
+    border: 2px solid #263A29;
+    border-radius: 100px;
+}
+.plant-title {
+    font-family: Hahmlet, Roboto, sans-serif;
+    color: black;
+    font-size: 40px;
+    font-weight: 500;
+    padding-bottom: 5px;  
+}
+.plant-text {
+    font-family: Poppins, Roboto, sans-serif;
+    font-weight: 200;
+    font-size: 24px;
+    color: black;
+}
+.small, .medium, .large {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.small-title, .medium-title, .large-title {
+    font-family: Poppins, Roboto, sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    color: black;
+    padding-top: 8px;
+}
+.small-info, .medium-info, .large-info {
+    font-family: Poppins, Roboto, sans-serif;
+    font-weight: 200;
+    font-size: 20px;
+    color: black;
+
+}
+
+/* Main - Paragraph w/ Image */
+
+.body-content {
+    display: flex;
+    justify-content: flex-start;
+    min-width: 800px;
+    padding: 75px 50px 200px 50px;
+}
+.body-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 50px;
+}
+.body-title {
+    font-family: Poppins, Roboto, sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    color: black;
+
+}
+.body-paragraph {
+    font-family: Poppins, Roboto, sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    color: black;
+}
+
+.body-content img {
+    width: 250px;
+    height: 400px; 
+    border: 2px solid #263A29;
+    border-radius: 100px;
+}
+
+/* Main - Bottom Banner w/ Quote */
+
+.quote-banner {
+    min-height: 400px;
+    min-width: 700px;
+    background-image: url(./assets/pexels-cátia-matos-1072179.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 25px 100px;
+}
+.quote-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    height: 300px;
+    min-width: 700px;
+    color: white;
+    border: 2px solid white;
+    background-color: rgba(0,0,0,0.6);
+}
+.quote {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 75px 125px;
+    color: white;
+    font-family: Poppins, Roboto, sans-serif;
+    font-weight: 300;
+    font-size: 25px;
+
+}
+.author-text {
+    color: white;
+    font-family: Poppins, Roboto, sans-serif;
+    font-weight: 300;
+    font-size: 25px;
+    padding: 0 50px 0 0;
+}
