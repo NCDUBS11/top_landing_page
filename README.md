@@ -2,7 +2,7 @@
 
 The Odin Project - Project: Landing Page - Create a custom web page that follows the provided design criteria provided by ToP.
 
-NCDUBS11.github.io/top_landing_page
+[solution](https://ncdubs11.github.io/top_landing_page/)
 
 For this project I decided to go with a "Plant Shop" theme. This is my very first page, so I will bet that I've referred to sections or areas incorrectly and probably wrote way more code than necessary... oh well.  It was a good learning experience either way.  Also, I decided to abandon a few parts at the bottom, which is why the bottom class is 'middle' and there is no footer called out.
 
